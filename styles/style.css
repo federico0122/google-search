@@ -1,45 +1,96 @@
+
+
 .top { margin: -15px ;
-height: 59px; width: 101.8%;
+height: 58px; width: 101.8%;
 background-color: #f1f1f1;
 border-bottom: 1px solid #666; border-bottom-color: #e5e5e5;
 visibility: visible;
 }
 li { list-style-type: none}
+
 .logo {height: 59px; width: 118px; float:left; position: absolute; top: 0px; left: 0px; line-height: 59px; padding: 3px 10px 0px 1px}
 
-#googlelogo {height: 35px; margin-bottom: 45px ;
-padding: 3px 10px 0px 10px; margin-top: -12px; }
+#googlelogo {height: 31px; margin-bottom: 45px ; width: 91px;
+padding: 3px 10px 0px 10px; margin-top: -7px; margin-left: -36px; position: absolute; }
 
-#blue {height: 54px; line-height: 54px; border-bottom: 1px solid;
+#blue {height: 58px; line-height: 54px; border-bottom: 1px solid;
 border-bottom-color: #ebebeb; width: 101.8%; margin: -15px;
 min-width: 1000px
-
 }
 
 
-.line {margin-left: 150px; top: 0px; height: 59px; line-height: 59px; min-width: 600px}
+.bar1 {margin-left: 780px; position: absolute;margin-top: 5px; height: 40px; line-height: 59px;padding-bottom: 14px; top: 0px }
 
-.line li {list-style-type: none; display: inline; min-width: 450px;}
+.top .container .form ul li {margin-top: 10px; padding: 2px 0 13px
+;width: 638px; height: 40px; margin-left: 120px;}
+
+.top .container .form ul li input {-webkit-box-sizing: border-box; height:38px; padding: 6px 9px 10px 9px;width: 588px; margin-top: 11px}
+
+.bar1 {float: right; margin-left: 1200px; min-width: 300px; white-space: nowrap}
+
+#pic2 {width: 32px; height: 28px;}
+
+#pic3 {width: 40px; height:30px }
+
+
+.bar1 li {display: inline; font: "Arial"; font-family: sans-serif}
+
+.line {margin-left: 150px; top: 0px; height: 59px; line-height: 59px; min-width: 600px; }
+
 
 #blue .bar2 li { display: inline; margin-top: 10px; float: left; position: relative; margin: 0 8px 0 8px;
-padding: 0 8px; text-decoration: none;color: gray
+padding: 0 8px ; text-decoration: none;color: gray; line-height: 56px
 }
 
-#blue .bar2 li:first-child {margin-left: 111px; }
+#blue .bar2 li:first-child {margin-left: 110px; }
 
 #blue .bar2 li {font-family: "Arial"; font-size: small}
 
 #blue .bar2 li:hover {color: #4285f4; font-weight: bold}
 
-.results {height:43px; position: relative; line-height: 43px; margin: 0 0 0 128px; padding-left: 16px; min-width: 600px}
+.results {height:43px; position: absolute; line-height: 20px; margin: 14px 0 0 134px; padding-left: 9px; min-width: 500px; text-align: left;font-size: 14px;}
 
-.numbers {white-space: nowrap; display: block; visibility: inherit! important; font-family: "arial" sans-serif;}
+.results .number p {color: #808080; font-family: sans-serif; font-size: small; }
 
-.results .number p {color: #808080}
-.body {position: relative; height: 833px; width: 1150px; margin: 0px 0px 0px 128px; padding-left: 16px}
+.body {position: relative; height: 1240px; width: 700px; margin: 0px 0px 0px 134px; padding-left: 9px; margin-top: 40px; padding-top: 10px;margin: }
 
 .body .child .result1 h3 { font-family: sans-serif; font-family: "arial"; font-size: medium; font-weight: normal; overflow-y: scroll; color: #1a0dab; font-size: 18px; width: 540px; height: 20px; zoom: 1; visibility: visible; margin-bottom: 0px;  }
 
 .body .child .result1 h3:hover {text-decoration: underline}
 
-.body .child .info p {color: #006621; font-style: normal; line-height: 16px; height: 17px; padding-top: 0px; position: relative; display: block;font-weight: normal;}
+.body .child .info p {color: #006621; font-style: normal; line-height: 16px; height: 17px; padding-top: 0px; position: relative; display: block;font-weight: normal; margin-top: 0px; font-family: sans-serif; font-size: 14px}
+
+.body .child .descrip {line-height: 18px; font-family: sans-serif;font-size: 13px; color: #545454; margin-top: -14px; width: 600px} 
+
+.body .child .result2 h3 { font-family: sans-serif; font-family: "arial"; font-size: medium; font-weight: normal; overflow-y: scroll; color: #1a0dab; font-size: 18px; width: 600px;height: 20px; zoom: 1; visibility: visible; margin-bottom: 0px; margin-top: -10px  }
+
+hr {background: #ddd;
+  clear: both;
+  float: none;
+  width: 90%;
+  height: 1px;
+  margin: 0 0em 1.3em -1em;
+    border: none;}
+
+.list .title h2 {color:#808080; display: block; font-family: sans-serif; font: "arial"; font-size: 18px; font-weight: normal; height: 18px; line-height: 18px; padding-bottom: 7px; margin-top: -5px }
+
+.list .bullets ul  {-webkit-column-count: 2; column-gap: 5px; padding-left: 10px;margin-top: -15px;
+    margin-left: -10px; }
+
+.list .bullets ul li {width: 263.375px; height: 20px; padding: 5px; font-size: 13px; font-family: Arial, sans-serif; font-weight: normal; line-height: 20px; color: #1a0dab; }
+
+.search {height: 70px; }
+.search .image {height: 45px; padding: 0 0 0 160px}
+.search .image .number p {font: "Arial"; font-family: sans-serif; letter-spacing: 4px;margin-top: -5px ;padding-left: 40px; color: #4285f4; font-weight: normal; text-decoration}
+
+.bottom{height: 65px; border-top: 1px solid #e4e4e4;padding-top: 18px ;line-height: 40px;min-width: 101.3%; display: block; background-color: rgb(242, 242, 242); visibility: visible; margin-left: -10px; padding-top:}
+
+.bottom .line1 p {margin-top:-2px; font: "Arial"; font-family: sans-serif; font-size: 13px; color: #aaa; line-height: 15px; margin-left: 135px;display: block; }
+
+.bottom .line2 ul {margin-left: 95px;height: 40px;margin-top: -5px }
+
+.bottom .line2 ul li {display: inline; color: #222; line-height: 40px; padding-right: 27px; width: 1007px; margin-right: 27px; font: "arial"; font-family: sans-serif; color: #777; font-size: 13px;
+}
+
+
+
